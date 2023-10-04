@@ -158,3 +158,15 @@ func Comprobacion() {
 	}
 
 }
+
+//prueba si una fecha es valido
+
+func Fecha_valida() {
+
+	// Crear un objeto time.Time con valor cero
+	fechaVacia := time.Time{}
+
+	// Comprobar si fechaVacia representa una fecha y hora válida
+	esVacia := fechaVacia.IsZero()
+	fmt.Println("14->", "fechaVacia es una fecha y hora válida:", esVacia)
+}

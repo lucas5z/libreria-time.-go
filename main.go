@@ -20,4 +20,5 @@ func main() {
 	time_tiempo.Zona_Horaria()      // (11)
 	time_tiempo.Dia_semana_actual() // me regrea el dia _ de la semana, ejm: lunes (12)
 	time_tiempo.Comprobacion()      // (13) vemos si una fecha es posterio o anterios a una fecha
+	time_tiempo.Fecha_valida()
 }
